@@ -28,6 +28,7 @@ button:hover {
 .save {
     background-color: rgb(9, 87, 32);
     border: 2px solid rgb(9, 87, 32);
+    margin-right: 10px;
 }
 
 
@@ -35,4 +36,19 @@ button:hover {
     border: 2px solid rgb(9, 87, 32);
     background: #fff;
     color: rgb(9, 87, 32);
+}
+
+.reset-button {
+    display: flex;
+
+}
+
+#reset-btn {
+    background-color: skyblue;
+    border: 2px solid skyblue;
+}
+
+#reset-btn:hover {
+    background-color: white;
+    color: skyblue;
 }
