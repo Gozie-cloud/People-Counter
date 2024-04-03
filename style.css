@@ -48,7 +48,7 @@ header .container .increment-decrement-button {
     font-weight: bold;
     letter-spacing: 1px;
     cursor: pointer;
-    margin: 5px auto;
+    margin: 10px auto;
 }
 
 .increment-decrement-button button:hover {
