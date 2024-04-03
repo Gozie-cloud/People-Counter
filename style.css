@@ -1,13 +1,45 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
     height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+header .container{
     display: flex;
     align-items: center;
     flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+    background: #000;
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 24px;
 }
 
+header .container h2 {
+    margin: 15px 0;
+}
 
-button {
+header .container .increment-decrement-button {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.container .increment-decrement-button button {
     padding: 8px 23px;
     background: #2c3520;
     border-radius: 5px;
@@ -16,39 +48,42 @@ button {
     font-weight: bold;
     letter-spacing: 1px;
     cursor: pointer;
-    margin: 10px auto;
+    margin: 5px auto;
 }
 
-button:hover {
+.increment-decrement-button button:hover {
     border: 2px solid #2c3520;
     background: #fff;
     color: #2c3520;
 }
 
-.save {
-    background-color: rgb(9, 87, 32);
-    border: 2px solid rgb(9, 87, 32);
-    margin-right: 10px;
+.container .save-reset-button button {
+    padding: 8px 23px;
+    background: #f4af1b;
+    border-radius: 5px;
+    border: 2px solid #f4af1b;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: 5px auto;
 }
 
+.container .save-reset-button .reset-btn {
+    background-color: #039fbe;
+    border: 2px solid #039fbe;
+    margin-left: 10px;
+}
 
-.save:hover {
-    border: 2px solid rgb(9, 87, 32);
+/* .save-reset-button .save-btn:hover {
+    border: 2px solid f4af1b;
     background: #fff;
-    color: rgb(9, 87, 32);
+    color: #f4af1b;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.reset-button {
-    display: flex;
-
-}
-
-#reset-btn {
-    background-color: skyblue;
-    border: 2px solid skyblue;
-}
-
-#reset-btn:hover {
-    background-color: white;
-    color: skyblue;
-}
+.save-reset-button .reset-btn:hover {
+    background-color: #fff;
+    color: #039fbe;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} */
